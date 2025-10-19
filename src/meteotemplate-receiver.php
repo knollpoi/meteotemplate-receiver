@@ -3,7 +3,7 @@
  * Plugin Name: Meteotemplate Receiver
  * Description: Receives Meteobridge/Meteotemplate-style updates, stores locally with retention; displays latest via shortcode or Gutenberg block; supports unit conversions (temp, pressure, wind, rain), IP/CIDR & FQDN allowlists, optional PASS, and wind direction as degrees or compass.
  * Version: 1.8.0
- * Author: TBL Farms / Kevin Noll
+ * Author: Kevin Noll
  * License: GPL-2.0-or-later
  */
 
