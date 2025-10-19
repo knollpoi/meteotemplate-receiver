@@ -32,12 +32,6 @@ The script reads the version from `src/meteotemplate-receiver.php`, creates a fo
 - Update: `/wp-json/meteotemplate/v1/update` (also supports `/update/api.php` for Meteobridge compatibility)
 - Latest: `/wp-json/meteotemplate/v1/latest?keys=T,H,P`
 
-## Shortcode
-```text
-[meteodata keys="T,H,P" format="inline" t_unit="F" p_unit="inHg" w_unit="mph" r_unit="in" decimals="1" dir_format="compass"]
-```
-Values are rendered without labels; units are appended (e.g., `66.6 °F`).
-
 ## Notes
 - Incoming units are configurable in **Settings → Meteotemplate Receiver** and should match what Meteobridge sends.
 - For ingest protection, use IP/CIDR or FQDN allowlists and optional `PASS` shared secret.
